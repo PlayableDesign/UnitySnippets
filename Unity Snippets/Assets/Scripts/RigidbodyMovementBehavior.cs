@@ -95,7 +95,6 @@ public class RigidbodyMovementBehavior : MonoBehaviour
         {
             _grounded = false;
             _rb.velocity = new(_rb.velocity.x, speed, _rb.velocity.z);
-
         }
     }
 
